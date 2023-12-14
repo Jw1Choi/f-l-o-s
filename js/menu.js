@@ -46,8 +46,8 @@ menu.innerHTML = `
           <li class="drop-down"><a class="list-btn menu-column" href="../column/column-event.html">무료 칼럼</a>
             <ul>
               <li><a class="list-btn" href="../column/column-event.html">1. 온라인 고객 확보를 위해 먼저 꼭 알아야 할 핵심 5가지 요소</a></li>
-              <li><a class="list-btn" href="../column/column-2.html">2. 시간 & 비용 절약하는 광고 기획을 위한 기본 가이드라인 </a></li>
-              <li><a class="list-btn" href="../column/column-develop.html">3. 마음껏 온라인 광고를 하기 위한 개발 노하우</a></li>
+              <li><a class="list-btn" href="../column/column-2-home.html">2. 시간 & 비용 절약하는 광고 기획을 위한 기본 가이드라인 </a></li>
+              <li><a class="list-btn" href="../column/column-develop-home.html">3. 마음껏 온라인 광고를 하기 위한 개발 노하우</a></li>
               <!-- <li class="drop-down"><a href="#">Drop Down 2</a>
                 <ul>
                   <li><a class="list-btn" href="#">Deep Drop Down 1</a></li>
