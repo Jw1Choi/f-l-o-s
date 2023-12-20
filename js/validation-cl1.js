@@ -70,7 +70,7 @@ function dll(){
     // var f = document.fm;
     // f.submit();
     // $('[name="fm"],[name="fm1"]').submit();
-
+    alert("무료 칼럼 신청이 완료되었습니다.\n이메일을 확인하세요!");
 }
  
 function maxLengthCheck(object){
@@ -81,7 +81,7 @@ function maxLengthCheck(object){
  
 function hoa(){
 
-    alert("무료 칼럼 신청이 완료되었습니다.\n이메일을 확인하세요!");
+ 
     $(window).scrollTop(0);
     window.location.href="./column-1-result.html";
   
