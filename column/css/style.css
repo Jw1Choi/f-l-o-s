@@ -50,6 +50,10 @@ a:focus {
   text-decoration: none; 
 }
 
+
+
+
+
 p {
   padding: 0;
   margin-bottom:0px;
@@ -606,7 +610,7 @@ h6 {
 
   .section-header h3{
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
   }
 
 
@@ -1881,7 +1885,29 @@ font-size:40px !important;
 }
 
 #faq #faq-list p {
+  font-size:1.2rem;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+ 
+  #faq #faq-list p {
+    font-size:1.1rem !important;
+  }
+}
+
+@media screen and (max-width:600px) {
+ 
+  #faq #faq-list p {
+    font-size:1.0rem !important;
+  }
+}
+
+@media screen and (max-width:468px) {
+ 
+  #faq #faq-list p {
+    font-size:0.9rem !important;
+  }
 }
 
 #faq #faq-list a.collapse {
@@ -2241,7 +2267,7 @@ footer{
 
 #footer .footer-top {
   /* padding: 30px 0 30px 0; */
-  background: #393939;
+  /* background: #393939; */
 }
 
 #footer .footer-top .footer-info {
@@ -2529,7 +2555,7 @@ footer{
   }
 
   #faq #faq-list a {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   #faq #faq-list i {
@@ -2588,6 +2614,15 @@ footer{
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
+}
+
+@media (max-width: 460px) {
+  
+
+  #faq #faq-list a {
+    font-size: 14px;
+  }
+
 }
 
 /* brand slide */
@@ -2731,6 +2766,10 @@ footer{
 
 
 
+
+
+
+
 .slide-cont:hover{
   transition: all 1s;
   transform: scale(1.04);
@@ -2866,3 +2905,32 @@ margin-top: 1rem;
   margin-bottom: 1rem;
   width: 30%;
 } */
+
+
+.bx-wrapper {-webkit-box-shadow:0 !important; box-shadow:none !important; border:0 !important; margin:0 !important;}
+
+.bottom_contact {width:100%; height:85px; background:#111; border-top:2px solid #ac9173; position:fixed; left:0; bottom:0; z-index:100;}
+.bottom_contact.on {position:absolute;}
+.bottom_contact .title {float:left; width:30%; position:relative;}
+.bottom_contact .title::before {content:''; width:1px; height:30px; background:#777; position:absolute; right:0; top:23px;}
+.bottom_contact .title img {position:absolute; left:0; top:28px; animation: bell 0.7s infinite; animation-timing-function:linear;}
+.bottom_contact .title span.tit {color: #b69d81; font-size: 20px; font-weight: bold; line-height: 85px; padding-left: 50px;}
+.bottom_contact .title span.tel {font-size: 24px; vertical-align: middle; font-weight: 600; line-height:85px; margin-left: 20px;}
+.bottom_contact .title span.tel a {color: #fff;}
+
+.bottom_contact .input_wrap {float:left;width:60%;padding-left: 30px;}
+.bottom_contact .input_wrap ul {width:100%; margin-top:12px;}
+.bottom_contact .input_wrap ul li {float:left; width:33.33%; overflow:hidden; padding-right: 2%; line-height:35px; height:35px; position:relative;}
+/* .bottom_contact .input_wrap ul li::after {content:''; width:100%; height:1px; background: #777; position:absolute; left:0; bottom:0;} */
+.bottom_contact .input_wrap ul li span {float:left; display:block; font-size: 15px; color: #ffffff; width:50px;}
+.bottom_contact .input_wrap ul li .r_input {float:left; width:calc(100% - 50px); height:35px; border:0; background: #111; padding-left: 10px; border-bottom:1px solid #777; color: #eaeaea;}
+.bottom_contact .input_wrap ul li .r_input::placeholder  {border: 2px solid red; color: #ffffff;}
+
+.bottom_contact .input_wrap ul li:first-child span {width:38px;}
+.bottom_contact .input_wrap ul li:first-child .r_input {width:calc(100% - 38px);}
+
+.bottom_contact .input_wrap ul li select {border-bottom:1px solid #777; height:32px;}
+.bottom_contact .check_bar {margin-top: 5px;}
+
+.bottom_contact .go_btn {float:left; width:10%; padding-left: 30px;}
+.bottom_contact .go_btn a {display:block; width:100%; height:40px; background: #ac9173; color: #fff; text-align: center; line-height: 40px; font-size: 15px; margin-top: 20px;}

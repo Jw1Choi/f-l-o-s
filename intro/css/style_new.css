@@ -66,14 +66,14 @@ html, body {font-family:"NotoSansCJK", sans-serif; word-break:keep-all; width:10
 
 @media (max-width:800px) {
 	#intro_img {margin-bottom: 80px;}
-	#intro_img .box-img img {height: 690px;}
+	#intro_img .box-img img {height: 80vh;}
 	#intro_img .box-copy strong {margin-bottom: 8px;font-size: 35px;}
 	#intro_img .box-copy p {font-size: 24px; }
 }
 
 @media (max-width:600px) {
 	#intro_img {margin-bottom: 60px;}
-	#intro_img .box-img img {height: 90vh !important; min-height:650px;}
+	#intro_img .box-img img {height: 80vh !important; min-height:650px;}
 	#intro_img .box-copy {top: 20%;}
 	#intro_img .box-copy strong {margin-bottom: 20px;font-size: 32px;line-height: 120%;}
 	#intro_img .box-copy strong br.vs-br {display: block;}

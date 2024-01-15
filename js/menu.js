@@ -87,7 +87,7 @@ menu.innerHTML = `
           <!-- <li><a class="list-btn menu-service" href="../price.html">서비스 가격</a></li> -->
           <li><a class="list-btn menu-faq" href="../faq.html">FAQ</a></li>
           
-          <li ><a class="imp-btn" href="../column/consulting.html">문의 신청하기</a></li>
+          <li ><a class="imp-btn" href="../column/column-event-ad.html">문의 신청하기</a></li>
         </ul>
       </nav><!-- .main-nav -->
       

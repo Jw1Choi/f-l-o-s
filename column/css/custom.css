@@ -1,0 +1,216 @@
+/* �곷떞 �좎껌 */
+#bo_list {position:relative;margin-bottom:20px}
+#bo_list:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_list .td_board {width:120px;text-align:center}
+#bo_list .td_chk {width:30px;text-align:center;border-top:1px solid #ecf0f1;border-bottom:1px solid #ecf0f1}
+#bo_list .td_date {width:60px;text-align:center}
+#bo_list .td_datetime {width:60px;text-align:center}
+#bo_list .td_group {width:100px;text-align:center}
+#bo_list .td_mb_id {width:100px;text-align:center}
+#bo_list .td_mng {width:80px;text-align:center}
+#bo_list .td_name {width:90px;text-align:left;padding:10px 0}
+#bo_list .td_nick {width:100px;text-align:center}
+#bo_list .td_num {width:50px;text-align:center}
+#bo_list .td_num2 {width:50px;text-align:center}
+#bo_list .td_numbig {width:80px;text-align:center}
+#bo_list .txt_active {color:#5d910b}
+#bo_list .txt_expired {color:#ccc}
+#bo_list tbody tr {border-left:2px solid transparent}
+#bo_list tbody tr:hover {border-left:2px solid #253dbe}
+#bo_list tbody .even td {background:#fbfbfb}
+/* 湲곕낯�뚯씠釉� */
+.tbl_wrap table {width:100%;border-collapse:collapse;border-spacing:0 5px;background:#fff;border-top:1px solid #ececec;border-bottom:1px solid #ececec}
+.tbl_wrap caption {padding:10px 0;font-weight:bold;text-align:left}
+.tbl_head01 {margin:0 0 10px}
+.tbl_head01 caption {padding:0;font-size:0;line-height:0;overflow:hidden}
+.tbl_head01 thead th {padding:20px 0;font-weight:normal;text-align:center;border-bottom:1px solid #ececec;height:40px}
+.tbl_head01 thead th div {border-right:1px solid #ececec;}
+.tbl_head01 thead th:last-child div {border: unset;}
+.tbl_head01 thead th input {vertical-align:top} /* middle 濡� �섎㈃ 寃뚯떆�� �쎄린�먯꽌 紐⑸줉 �ъ슜�� 泥댄겕諛뺤뒪 �쇱씤 源⑥쭚 */
+.tbl_head01 tfoot th, .tbl_head01 tfoot td {padding:10px 0;border-top:1px solid #c1d1d5;border-bottom:1px solid #c1d1d5;background:#d7e0e2;text-align:center}
+.tbl_head01 tbody th {padding:8px 0;border-bottom:1px solid #e8e8e8}
+.tbl_head01 td {color:#666;padding:10px 5px;border-top:1px solid #ecf0f1;border-bottom:1px solid #ecf0f1;line-height:1.4em;height:60px;word-break:break-all}
+.tbl_head01 tbody tr:hover td {background:#fafafa}
+.tbl_head01 a:hover {text-decoration:underline}
+/* �듬� �곹깭 */
+.reply_state {display:inline-block;background:#a0a0a0;color:#fff;font-weight:normal !important;width:100px;height:36px;line-height:36px; font-size:16px; text-align: center;}
+.reply_state.complete {background:#2d2d2d;}
+/* �먮즺 �녿뒗 紐⑸줉 */
+.empty_table {padding:50px 0 !important;text-align:center}
+
+.cont_write {
+    position: absolute; right: 0; top: 0; width:140px; height:45px;  border: 1px solid #2e2e2e; font-size:16px; line-height:45px; cursor: pointer; transition: 0.3s;}
+
+@media screen and (max-width:767px){
+.cont_write {position:relative; margin-top:25px; font-size: 13px; width:80px; height: 32px; padding:0; line-height: 32px; text-align: center; height: auto; float:right;}
+
+.reply_state {width:70px; height:32px; line-height:32px; padding:0; font-size:13px;}
+
+}
+
+
+
+
+
+.cont_write a {
+    text-decoration: none !important;
+    color: black;
+}
+.cont_write:hover {
+    background-color: #2e2e2e;
+}
+.cont_write:hover a {
+    color: white;
+}
+
+
+/* 鍮꾨�踰덊샇 �뺤씤 */
+.no_scroll {
+    overflow: hidden;
+}
+#modal_bg.on {
+    display: block;
+}
+#modal_bg {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 999;
+}
+
+.modal_container {
+    width: 400px;
+    height: 300px;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px);
+    background-color: white;
+    position: absolute;
+    padding: 40px 20px;
+}
+.modal_wrapper p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.modal_head {
+    margin-bottom: 32px;
+}
+.modal_head p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.modal_cont .modal_input {
+    padding: 0 20px;
+    text-align: center;
+    border: 1px solid #2e2e2e;
+}
+
+_:-ms-input-placeholder, :root .modal_cont .modal_input {
+		 padding: 0 5px;
+}
+
+.modal_cont p:last-child {
+    margin-bottom: 0;
+}
+.modal_cont span {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #2e2e2e;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 11px 0;
+    margin-right: 20px;
+}
+.modal_cont span:last-child {
+    margin-right: 0;
+}
+.modal_cont span.submit {
+    background-color: #2e2e2e;
+    color: white;
+}
+
+/* �곷떞�좎껌 湲� �묒꽦 */
+.conbody .inquiry {
+    max-width: 600px;
+    margin : 0 auto;
+}
+.conbody .inquiry div {
+    margin-bottom: 20px;
+}
+.conbody .inquiry input,
+.conbody .inquiry select,
+.conbody .inquiry textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 1px;
+    border: 1px solid #2e2e2e;
+}
+.conbody .inquiry label {
+    display: block;
+    margin-bottom: 10px;
+}
+.conbody .inquiry textarea {
+    line-height: 1.5;
+    height: 200px;
+}
+.conbody span.submit{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #2e2e2e;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 11px 0;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+/* �듬� 由ъ뒪�� */
+.reply_list {
+    padding: 0 10px;
+}
+.reply_list li {
+    padding: 10px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.reply_list li div:last-child {
+    margin-bottom: 0;
+}
+.reply_list li .replier_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reply_list li .replier_info p {
+    font-size: 14px;
+}
+#bo_v_con {
+    width: 100% !important;
+}
+
+
+/**
+ * 怨좉컼 �ㅽ넗由�
+ */
+.success_view .right .counsel > select {
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    display: block;
+    width: 100%;
+}
