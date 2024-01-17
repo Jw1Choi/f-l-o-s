@@ -75,12 +75,12 @@
     .bottom_contact_mob .top_thumb .title {height: 40px; line-height:1; margin-top: 12px;}
     .bottom_contact_mob .top_thumb .title span {display:block;}
     .bottom_contact_mob .top_thumb .title .tit {font-size:15px; margin-right:0; font-weight: bold;}
-    .bottom_contact_mob .top_thumb .title .tel {font-size:20px; font-weight: bold; margin-top:4px;width:60%;}
+    .bottom_contact_mob .top_thumb .title .tel {font-size:16px; font-weight: bold; margin-top:4px;width:60%;}
     
     .bottom_contact_mob .top_thumb .title .click_img {position:absolute; left:158px; top:13px; width:32px; z-index:10;}
     
     .bottom_contact_mob .top_thumb .btn {width:90px; right:3%; font-size: 14px;}
-    .bottom_contact_mob .top_thumb .btn a {display:block; width:100%; height: 100%;margin-top:3px;}
+    .bottom_contact_mob .top_thumb .btn a {display:block; width:100%; height: 100%;margin-top:3px;font-size:12px;}
     
     
     .bottom_contact_mob .bottom_con {height:315px;}
